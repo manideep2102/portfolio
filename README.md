@@ -87,3 +87,4 @@ CGPA: 8.53/10
 ---
 
 ⭐ Always open to internships and AI research collaborations!
+
