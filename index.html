@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yadagiri Manideep - AI Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-container"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">YM</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="floating-icons">
+                <i class="fas fa-brain floating-icon"></i>
+                <i class="fas fa-robot floating-icon"></i>
+                <i class="fas fa-microchip floating-icon"></i>
+                <i class="fas fa-network-wired floating-icon"></i>
+            </div>
+            <h1 class="hero-name">Yadagiri Manideep</h1>
+            <h2 class="hero-title">Aspiring Artificial Intelligence Developer</h2>
+            <div class="typing-container">
+                <span class="typing-text"></span>
+                <span class="cursor">|</span>
+            </div>
+            <button class="cta-button">
+                <span>View Projects</span>
+                <i class="fas fa-rocket"></i>
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-card glass-card">
+                    <div class="about-text">
+                        <p>Passionate about the transformative power of Artificial Intelligence and Machine Learning, I am dedicated to pushing the boundaries of what's possible in technology. My journey in AI encompasses Natural Language Processing, Computer Vision, and Large Language Models.</p>
+                        
+                        <div class="education-info">
+                            <h3>Education</h3>
+                            <div class="education-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <h4>B.Tech Computer Science Engineering (AI & ML)</h4>
+                                    <p>Woxsen University</p>
+                                    <span class="cgpa">CGPA: 8.53</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p>I specialize in developing intelligent systems that can understand, learn, and adapt. From computer vision applications to conversational AI, I'm constantly exploring new frontiers in artificial intelligence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Core programming language for AI/ML development</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL</h3>
+                    <p>Database management and data querying</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>TensorFlow & Keras</h3>
+                    <p>Deep learning frameworks for neural networks</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Scikit-learn</h3>
+                    <p>Machine learning algorithms and tools</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fas fa-language"></i>
+                    <h3>NLP & Transformers</h3>
+                    <p>Natural Language Processing and LLMs</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fas fa-table"></i>
+                    <h3>Pandas & NumPy</h3>
+                    <p>Data manipulation and numerical computing</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML & CSS</h3>
+                    <p>Frontend web development</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git & VS Code</h3>
+                    <p>Version control and development tools</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card">
+                    <div class="project-preview">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Driver Drowsiness Detection System</h3>
+                        <p>Real-time CNN model using OpenCV and TensorFlow to detect driver fatigue and trigger alert systems for enhanced road safety.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">CNN</span>
+                            <span class="tech-tag">Real-time</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-preview">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>YouTube Speech-to-Text & Summarizer</h3>
+                        <p>Advanced speech recognition system with NLP transformers for automated transcript generation and intelligent content summarization.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Speech Recognition</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Transformers</span>
+                            <span class="tech-tag">Summarization</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-preview">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Medical NLP Chatbot (LLM + RAG)</h3>
+                        <p>Intelligent medical assistant using LLaMA/Gemini API with FAISS vector store and RAG architecture, deployed via Streamlit.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">LLaMA</span>
+                            <span class="tech-tag">RAG</span>
+                            <span class="tech-tag">FAISS</span>
+                            <span class="tech-tag">Streamlit</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card glass-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Mathematics for Machine Learning</h3>
+                        <p>Coursera</p>
+                        <div class="cert-badge">
+                            <i class="fas fa-certificate"></i>
+                            Certified
+                        </div>
+                    </div>
+                </div>
+                <div class="cert-card glass-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Crash Course on Python</h3>
+                        <p>Google via Coursera</p>
+                        <div class="cert-badge">
+                            <i class="fas fa-certificate"></i>
+                            Certified
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-subtitle">Ready to collaborate on the next AI breakthrough?</p>
+                <div class="contact-links">
+                    <a href="mailto:manideepmanu357@gmail.com" class="contact-link glass-card">
+                        <i class="fas fa-envelope"></i>
+                        <span>manideepmanu357@gmail.com</span>
+                    </a>
+                    <a href="https://github.com/manideep2102" target="_blank" class="contact-link glass-card">
+                        <i class="fab fa-github"></i>
+                        <span>github.com/manideep2102</span>
+                    </a>
+                    <a href="https://linkedin.com/in/yadagiri-manideep" target="_blank" class="contact-link glass-card">
+                        <i class="fab fa-linkedin"></i>
+                        <span>linkedin.com/in/yadagiri-manideep</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Yadagiri Manideep. Crafted with AI precision.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
